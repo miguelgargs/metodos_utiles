@@ -1,5 +1,6 @@
 
-public class Métodos {
+
+ class Métodos {
 
 	public static void termapitagorica(long num) {
 		long a, b, c;
@@ -21,6 +22,9 @@ public class Métodos {
 	}
 
 	public static boolean booleannumeroprimo(long num) {
+		if(num==2){
+			return true;
+		}
 		for (int i = 2; i <= (Math.sqrt(num) + 1); i++) {
 
 			if (num % i == 0) {
